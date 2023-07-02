@@ -1,4 +1,13 @@
+#!/usr/bin/python3
+"""
+A module for working with pascal triangle.
+"""
+
+
 def pascal_triangle(n):
+    """
+    Create the first n pascal triagle
+    """
     if n <= 0:
         return []
     a = [[] for i in range(n)]
